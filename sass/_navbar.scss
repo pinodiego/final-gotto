@@ -1,0 +1,33 @@
+
+
+header img {
+    height: 48px;
+    
+}
+
+// Variables
+
+$link-activo: blueviolet;
+$link-sobre: aliceblue;
+$link-visto: black;
+
+
+a:link, a:visited {
+
+    color: $link-visto;
+    border-radius: 3px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:active {
+    background-color: $link-activo;
+
+  }
+
+a:hover {
+    background-color: $link-sobre;
+
+  }
